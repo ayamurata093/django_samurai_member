@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  {% block title %}<title>メンバー　所属</title>{% endblock %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load static %}
+</head>
+<body>
+{% block sidebar %}
+    <ul class="sidebar-nav">
+    <li><a href="{% url 'index' %}">ホーム</a></li>
+    <li><a href="{% url 'members' %}">全メンバー</a></li>
+    <li><a href="{% url 'syozokus' %}">全所属</a></li>
+    </ul>
+{% endblock %}
+{% block content %}
+{% endblock %}
+    2019年6月15日<p />
+</body>
+</html>
